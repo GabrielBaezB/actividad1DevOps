@@ -1,0 +1,39 @@
+GIT --fast-version-control
+
+-- Comandos básicos -- 
+git init: Inicializa un nuevo repositorio Git.
+git clone [url]: Clona un repositorio remoto a tu máquina local.
+git status: Muestra el estado de los cambios en tu repositorio.
+git add [archivo]: Añade archivos al área de preparación (staging area).
+git commit -m "Mensaje del commit": Confirma los cambios añadidos al área de preparación.
+git push: Envía los commits locales al repositorio remoto.
+git pull: Obtiene y fusiona cambios desde el repositorio remoto.
+
+-- Ramas (Branches) --
+git branch: Lista todas las ramas en tu repositorio.
+git branch [nombre-de-la-rama]: Crea una nueva rama.
+git checkout [nombre-de-la-rama]: Cambia a la rama especificada.
+git merge [nombre-de-la-rama]: Fusiona la rama especificada con la rama actual.
+
+-- Historial --
+git log: Muestra el historial de commits.
+git diff: Muestra las diferencias entre el área de trabajo y el área de preparación.
+git diff [commit1] [commit2]: Muestra las diferencias entre dos commits.
+
+-- Repositorio Remoto --
+git remote add [nombre] [url]: Añade un repositorio remoto.
+git remote -v: Muestra los repositorios remotos configurados.
+git fetch: Obtiene cambios desde el repositorio remoto sin fusionarlos.
+
+-- Deshacer Cambios --
+git reset [archivo]: Elimina el archivo del área de preparación.
+git checkout -- [archivo]: Descarta cambios en el archivo especificado.
+git revert [commit]: Crea un nuevo commit que deshace los cambios de un commit anterior.
+
+-- Comandos Útiles --
+git stash: Guarda temporalmente los cambios en el área de trabajo.
+git stash pop: Aplica los cambios guardados con git stash.
+git tag [nombre-del-tag]: Crea un nuevo tag (etiqueta) en el commit actual.
+
+-- Documentación --
+https://git-scm.com/doc
